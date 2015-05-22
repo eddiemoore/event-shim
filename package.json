@@ -1,0 +1,23 @@
+{
+  "name": "event-shim",
+  "version": "0.1.0",
+  "description": "Browser Event shim for node",
+  "main": "src/event.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eddiemoore/event-shim.git"
+  },
+  "keywords": [
+    "event",
+    "event-shim"
+  ],
+  "author": "Ed Moore",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eddiemoore/event-shim/issues"
+  },
+  "homepage": "https://github.com/eddiemoore/event-shim"
+}
