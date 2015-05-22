@@ -20,11 +20,12 @@
      * @constructor
      * @param {object} data (optional)
      */
-    Event = function (data) {
+    Event = function (type, data) {
       if (data) {
         this.setData(data)
       }
 
+      this.type = type
       this.isPropagationStopped = false
     }
 
