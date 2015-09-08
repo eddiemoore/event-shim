@@ -9,12 +9,12 @@
   }
 
 }(function () {
+  
+  var Event // constructor, function
 
   var HAS_EVENT_INTERFACE = typeof window !== 'undefined' && typeof window.Event !== 'undefined'
 
   if (!HAS_EVENT_INTERFACE) {
-
-    var Event // constructor, function
 
     /**
      * @constructor
@@ -54,6 +54,12 @@
     Event.prototype.stopPropagation = function () {
       this.isPropagationStopped = true
     }
+  }
+  
+  else {
+    
+    Event = window.Event
+    
   }
 
   return Event
